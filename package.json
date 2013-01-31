@@ -1,0 +1,14 @@
+{
+    "name": "asset-builder",
+    "version": "0.1.0",
+    "description": "Grunt configuration for building assets",
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "dependencies": {
+        "coffee-script": "1.4.0",
+        "grunt": "0.3.x",
+        "grunt-contrib-handlebars": "0.3.x",
+        "less": "1.3.3"
+    }
+}
