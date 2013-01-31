@@ -3,9 +3,9 @@ module.exports = function(grunt) {
     grunt.initConfig({
 	coffee: {
 	    app: {
-		bin: '/home/nick/node-priject/node_modules/grunt-coffee/node_modules/coffee-script/bin/coffee',
-		src: '/home/nick/node-project/coffee/*.coffee',
-		dest: '/home/nick/node-project/build/'
+		bin: 'node_modules/grunt-coffee/node_modules/coffee-script/bin/coffee',
+		src: 'coffee/*.coffee',
+		dest: 'build/'
 	    }
 	},
 	
