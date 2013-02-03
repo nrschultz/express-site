@@ -12,5 +12,14 @@ app.set('views', __dirname + '/../templates')
 routes app
 
 
-app.listen 80
-console.log 'Listening on port 80'
+app.configure('local', ->
+  app.set('port', 3000)
+)
+
+app.configure('prod', ->
+  app.set('port', 80)
+)
+
+port = app.get('port')
+app.listen port
+console.log "Listening on port #{port}"

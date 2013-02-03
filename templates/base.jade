@@ -1,0 +1,14 @@
+html
+  head
+    block scripts
+        //This is where scripts go
+    block css
+        link(rel="stylesheet", type="text/css", href="/static/reset.css")
+        link(rel="stylesheet", type="text/css", href="/static/base.css")
+  body.basePage
+    .main-content
+        .content-header
+            h1 Nick Schultz
+            h3 Web Developer, Sports Fanatic, Midwest Afficianado
+
+        block content
