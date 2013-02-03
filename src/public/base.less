@@ -1,21 +1,37 @@
+@mainWidth : 960px;
 .basePage{
     font-family: "Andale Mono";
-    background-color: #ccc;
+    background-color: #ddd;
     .main-content {
-        border: 1px solid #aaa;
+        padding: 10px;
+        border-left : 1px solid #aaa;
+        border-right : 1px solid #aaa;
         min-height: 100%;
         background-color: #ccc;
         margin: 0 auto;
-        width: 960px;
+        width: @mainWidth;
         h1 {
+            margin: 20px;
             font-size: 2em;
-            color:#ccc;
+            font-weight: bold;
+            color:#333;
         }
-        .content-header{
+        p{
+            margin: 10px 20px;
+            line-height: 1.3em;
+        }
+    }
+    .content-header{
+            h2{
+                color: #509822;
+                margin-bottom: 5px;
+                font-size: 1.6em;
+            }
+            border: 1px solid #333;
+            min-width: @mainWidth;
             padding: 10px;
             background-color: #333;
             color: #999;
             text-align: right;
         }
-    }
 }
