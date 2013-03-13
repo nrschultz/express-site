@@ -1,0 +1,39 @@
+@mainWidth : 960px;
+.basePage{
+    font-family: "Andale Mono";
+    background-color: #ddd;
+    .main-content {
+        padding: 10px;
+        border-left : 1px solid #aaa;
+        border-right : 1px solid #aaa;
+        height: 100%;
+        background-color: #ccc;
+        margin: 0 auto;
+        width: @mainWidth;
+        h1 {
+            margin: 20px;
+            font-size: 2em;
+            font-weight: bold;
+            color:#333;
+        }
+        p{
+            font-family: Helvetica, Arial;
+            margin: 10px 20px;
+            line-height: 1.3em;
+        }
+    }
+    .content-header{
+            h2{
+                color: #509822;
+                margin-bottom: 5px;
+                font-size: 26px;
+            }
+            font-size:16px;
+            border: 1px solid #333;
+            min-width: @mainWidth;
+            padding: 10px;
+            background-color: #333;
+            color: #999;
+            text-align: right;
+        }
+}
