@@ -39,7 +39,8 @@ module.exports = function(grunt) {
         copy: {
             all: {
                 files: {
-                    'build/public/images/': 'src/public/images/**'
+                    'build/public/images/': 'src/public/images/**',
+                    'build/public/': 'src/public/css'
                 }
             }
         }
