@@ -9,12 +9,12 @@
         "express": "3.1.0",
     	"consolidate": "0.8.0",
     	"jade": "0.27.7",
-    	"grunt-contrib-coffee": "0.3.x",
-        "grunt": "0.3.x",
-    	"grunt-contrib-less": "0.3.x",
-    	"grunt-contrib-clean": "0.3.x",
-        "grunt-contrib-handlebars": "0.3.x",
-        "grunt-contrib-watch": "0.1.x",
+    	"grunt-contrib-coffee": "0.4.x",
+        "grunt": "0.4.x",
+    	"grunt-contrib-less": "0.5.x",
+    	"grunt-contrib-clean": "0.4.x",
+        "grunt-contrib-handlebars": "0.5.x",
+        "grunt-contrib-watch": "0.3.x",
         "grunt-contrib-copy": "0.4.x"
     }
 }
