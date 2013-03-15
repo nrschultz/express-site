@@ -15,6 +15,8 @@
     	"grunt-contrib-clean": "0.4.x",
         "grunt-contrib-handlebars": "0.5.x",
         "grunt-contrib-watch": "0.3.x",
-        "grunt-contrib-copy": "0.4.x"
+        "grunt-contrib-copy": "0.4.x",
+        "underscore": "1.4.x",
+        "underscore.string": "2.3.x"
     }
 }
