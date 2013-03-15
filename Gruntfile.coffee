@@ -50,7 +50,7 @@ module.exports = (grunt) ->
                 files: [
                     expand: true
                     cwd: 'src/'
-                    src: ['public/css/*.css']
+                    src: ['public/css/*.css', 'public/img/*', 'public/js/*.js']
                     dest: 'build/'
                 ]
     
