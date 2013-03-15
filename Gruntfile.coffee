@@ -33,10 +33,10 @@ module.exports = (grunt) ->
     grunt.initConfig
         coffee: 
             compile: 
-                files: allCoffeeScript '/src/', '/build/'
+                files: allCoffeeScript 'src/', 'build/'
         less: 
             all: 
-                files: allLessFiles "/src/", '/build/' 
+                files: allLessFiles "src/", 'build/' 
                 options:
                     compress:true
         clean:
@@ -48,8 +48,10 @@ module.exports = (grunt) ->
         copy: 
             all: 
                 files: [
-                    src: ['src/public/css/*.css']
-                    dest: 'build/public/'
+                    expand: true
+                    cwd: 'src/'
+                    src: ['public/css/*.css']
+                    dest: 'build/'
                 ]
     
     grunt.registerTask 'default', ["clean", "coffee", "less", "copy", "watch"]

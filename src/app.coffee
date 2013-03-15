@@ -4,7 +4,7 @@ engines = require "consolidate"
 
 app = express()
 
-app.use('/static', express.static(__dirname + '/public'));
+app.use '/static', express.static(__dirname + '/public')
 app.engine("jade", engines.jade)
 app.set('view engine' ,'jade')
 app.set('views', __dirname + '/../templates')
